@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/btn_menu_test"
+        android:icon="@drawable/ic_menu"
+        android:title="Test" />
+    <item android:title="Sayfalar">
+        <menu>
+            <item
+                android:id="@+id/btn_menu_profile"
+                android:icon="@drawable/profile"
+                android:title="Profilim" />
+            <item
+                android:id="@+id/btn_menu_about_us"
+                android:icon="@drawable/info"
+                android:title="Hakkımızda" />
+            <item
+                android:id="@+id/btn_menu_suggestion"
+                android:icon="@drawable/email"
+                android:title="Öneri/Şikayet" />
+            <item
+                android:id="@+id/btn_menu_out"
+                android:icon="@drawable/exit"
+                android:title="Çıkış" />
+        </menu>
+    </item>
+</menu>

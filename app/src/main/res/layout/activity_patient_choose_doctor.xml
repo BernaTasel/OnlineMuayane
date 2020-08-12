@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.patient.FragmentPatientChooseDoctor">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbPatientChooseDoctors"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etDoctorFilter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/search"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Uzmanlık alanı seçiniz ..."
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/material_on_primary_emphasis_medium"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tbPatientChooseDoctors"
+        app:layout_constraintEnd_toEndOf="@+id/tbPatientChooseDoctors"
+        app:layout_constraintStart_toStartOf="@+id/tbPatientChooseDoctors"
+        app:layout_constraintTop_toTopOf="@+id/tbPatientChooseDoctors" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChooseDoctor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbPatientChooseDoctors" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

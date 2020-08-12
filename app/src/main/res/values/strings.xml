@@ -1,0 +1,294 @@
+<resources>
+    <string name="app_name">Online Muayene</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="host">berry-shadowed-sweatpants.glitch.me</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Kanal1</string>
+
+    <string-array name="complaint_items">
+        <item>Kaşınma</item>
+        <item>Göğüs ağrısı</item>
+        <item>Kalp sıkışması</item>
+        <item>Bulantı</item>
+        <item>Kusma</item>
+        <item>Boğaz ağrısı</item>
+        <item>Karıncalanma</item>
+        <item>Uyuşma</item>
+        <item>Halsizlik</item>
+        <item>Yorgunluk</item>
+        <item>Bitkinlik</item>
+        <item>Nefes darlığı</item>
+        <item>İdrar yaparken yanma</item>
+        <item>Ödem</item>
+        <item>Böğür ağrısı</item>
+        <item>Bacakta şişkinlik</item>
+        <item>Kızarıklık</item>
+        <item>Sarılık</item>
+        <item>Solukluk</item>
+        <item>Üşüme</item>
+        <item>Titreme</item>
+        <item>Tansiyon</item>
+        <item>Şeker</item>
+        <item>Terleme</item>
+        <item>Uykusuzluk</item>
+        <item>Hırıltı</item>
+        <item>Yanık</item>
+    </string-array>
+
+    <string name="privacy">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+    </string>
+
+    <string name="kvkk">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+    </string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_patient__sign__up">Patient_Sign_Up</string>
+    <string name="title_activity_patient_sign_up">PatientSignUp</string>
+    <string name="title_activity_patient_info">PatientInfoActivity</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="evet">Evet</string>
+    <string name="hayir">Hayır</string>
+    <string name="solved">Yanıtlandı olarak işaretle</string>
+    <string name="unsolved">Yanıtlanmadı olarak işaretle</string>
+    <string name="yanitla">Yanıtla</string>
+
+    <string-array name="cities_array">
+        <item>Adana</item>
+        <item>Adıyaman</item>
+        <item>Afyonkarahisar</item>
+        <item>Ağrı</item>
+        <item>Aksaray</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Ardahan</item>
+        <item>Artvin</item>
+        <item>Aydın</item>
+        <item>Balıkesir</item>
+        <item>Bartın</item>
+        <item>Batman</item>
+        <item>Bayburt</item>
+        <item>Bilecik</item>
+        <item>Bingöl</item>
+        <item>Bitlis</item>
+        <item>Bolu</item>
+        <item>Burdur</item>
+        <item>Bursa</item>
+        <item>Çanakkale</item>
+        <item>Çankırı</item>
+        <item>Çorum</item>
+        <item>Denizli</item>
+        <item>Diyarbakır</item>
+        <item>Düzce</item>
+        <item>Edirne</item>
+        <item>Elazığ</item>
+        <item>Erzincan</item>
+        <item>Erzurum</item>
+        <item>Eskişehir</item>
+        <item>Gaziantep</item>
+        <item>Giresun</item>
+        <item>Gümüşhane</item>
+        <item>Hakkari</item>
+        <item>Hatay</item>
+        <item>Iğdır</item>
+        <item>Isparta</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+        <item>Kahramanmaraş</item>
+        <item>Karabük</item>
+        <item>Karaman</item>
+        <item>Kars</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+        <item>Kırıkkale</item>
+        <item>Kırklareli</item>
+        <item>Kırşehir</item>
+        <item>Kilis</item>
+        <item>Kocaeli</item>
+        <item>Konya</item>
+        <item>Kütahya</item>
+        <item>Malatya</item>
+        <item>Manisa</item>
+        <item>Mardin</item>
+        <item>Mersin</item>
+        <item>Muğla</item>
+        <item>Muş</item>
+        <item>Nevşehir</item>
+        <item>Niğde</item>
+        <item>Ordu</item>
+        <item>Osmaniye</item>
+        <item>Rize</item>
+        <item>Sakarya</item>
+        <item>Samsun</item>
+        <item>Siirt</item>
+        <item>Sinop</item>
+        <item>Sivas</item>
+        <item>Şanlıurfa</item>
+        <item>Şırnak</item>
+        <item>Tekirdağ</item>
+        <item>Tokat</item>
+        <item>Trabzon</item>
+        <item>Tunceli</item>
+        <item>Uşak</item>
+        <item>Van</item>
+        <item>Yalova</item>
+        <item>Yozgat</item>
+        <item>Zonguldak</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Kadın</item>
+        <item>Erkek</item>
+    </string-array>
+
+    <string-array name="user_type_array">
+        <item>Tüm Kullanıcılar</item>
+        <item>Admin</item>
+        <item>Doktor</item>
+        <item>Hasta</item>
+    </string-array>
+
+    <string-array name="professions_array">
+        <item>İç Hastalıkları(Dahiliye)</item>
+        <item>Kardiyoloji</item>
+        <item>Göğüs Hastalıkları</item>
+        <item>Enfeksiyon Hastalıkları</item>
+        <item>Nöroloji</item>
+        <item>Psikiyatri</item>
+        <item>Çocuk Sağlığı ve Hastalıkları</item>
+        <item>Çocuk Psikiyatrisi</item>
+        <item>Dermatoloji</item>
+        <item>Fiziksel Tıp ve Rehabilitasyon</item>
+        <item>Genel Cerrahi</item>
+        <item>Çocuk Cerrahisi</item>
+        <item>Göğüs Cerrahisi</item>
+        <item>Kalp ve Damar Cerrahisi</item>
+        <item>Beyin ve Sinir Cerrahisi</item>
+        <item>Plastik, Rekonstrüktif ve Estetik Cerrahi</item>
+        <item>Ortopedi ve Travmatoloji</item>
+        <item>Üroloji</item>
+        <item>Kulak-Burun-Boğaz Hastalıkları</item>
+        <item>Göz Hastalıkları</item>
+        <item>Kadın Hastalıkları ve Doğum</item>
+        <item>Anesteziyoloji ve Reanimasyon</item>
+        <item>Radyasyon Onkolojisi</item>
+        <item>Radyoloji</item>
+        <item>Nükleer Tıp</item>
+        <item>Tıbbi Patoloji</item>
+        <item>Tıbbi Genetik</item>
+        <item>Tıbbi Biyokimya</item>
+        <item>Tıbbi Mikrobiyoloji</item>
+        <item>Tıbbi Farmakoloji</item>
+        <item>Spor Hekimliği</item>
+        <item>Askeri Sahra Hekimliği</item>
+        <item>Hava ve Uzay Hekimliği</item>
+        <item>Sualtı Hekimliği ve Hiperbarik Tıp</item>
+        <item>Acil Tıp</item>
+        <item>Adli Tıp</item>
+        <item>Halk Sağlığı</item>
+        <item>Fizyoloji</item>
+        <item>Aile Hekimliği</item>
+        <item>Anatomi</item>
+        <item>Embriyoloji ve Histoloji</item>
+        <item>Veteriner Hekim</item>
+        <item>Ağız ve Diş Sağlığı</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Giriş Yap</string>
+    <string name="ac">Aç</string>
+    <string name="reddet">Reddet</string>
+    <string name="guncelle">Güncelle</string>
+    <string name="cikis_yap">Çıkış Yap</string>
+    <string name="iptal">İptal</string>
+    <string name="tamam">Tamam</string>
+</resources>

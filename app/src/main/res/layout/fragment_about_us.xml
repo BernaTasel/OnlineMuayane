@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.general.FragmentAboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="Biz kimiz?"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="İnsanların daha hızlı ve daha güvenilir sağlık hizmeti alabilmeleri için çevrimiçi olarak onlara yardımcı olacak bir platform olması gerektiğine inanan bir takımız. "
+                android:textColor="@color/material_on_background_emphasis_high_type"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="Hastalarımız için avantajlarımız neler?"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="- Grip, cilt tahrişleri, baş ağrısı gibi yaygın tıbbi konularla ilgili sorunlarını hastaneye gitmeden bir doktora sorabilirsiniz.
+                \n- Doktor ile doğrudan mesajlaşabilir veya doktorun uygun görmesi halinde videolu görüşme sağlayabilirsiniz.  "
+                android:textColor="@color/material_on_background_emphasis_high_type"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="Doktorlarımız için avantajlarımız neler? "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="- Çevrimiçi Muayane Sistemi sanal bir iletişim ağı kurmanızı sağlar.
+                \n- Platformumuzun çevrimiçi görüşebilme özelliği ile hastalara cep telefonu numarası verme zorunluluğu ortadan kalkar, iş dışı sosyal yaşantınız sizin kontrolünüze geçer.
+                \n- Yapılan araştırmalarda insanların doktor tercihi yaparken artık diğer yorumlara güvenmediği, hatta kötü yorumların yayınlanmadığı kanısıyla önyargılarının arttığı belirtilmektedir. Süper doktor sağlık platformunda hasta yorumları yayınlanmaz, sizi hastalarla tanıştırır ve gerisini size bırakırız."
+             android:textColor="@color/material_on_background_emphasis_high_type"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="Nasıl kullanılır? "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginEnd="16sp"
+                android:text="Çevrimiçi Muayane Sisteminin kullanımı çok kolay! Giriş sayfamızdan 'Henüz bir hesabınız yok mu?' yazısına tıklayın ve adımları takip ederek kayıt olun. Ardından giriş yaptığınızda alanında uzman doktorlarımız ile hemen görüşmeye başlayabilirsiniz!"
+            android:textColor="@color/material_on_background_emphasis_high_type"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginEnd="16sp"
+                android:layout_marginBottom="16sp"
+                android:text="Her öneriye açığız, Öneri/Şikayet bölümünden bize ulaşabilirsiniz.
+                \nGoogle Play Store'da bize oy vermeyi de lütfen unutmayınız. "
+                android:textColor="@color/material_on_background_emphasis_high_type"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
